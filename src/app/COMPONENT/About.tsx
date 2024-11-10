@@ -13,7 +13,7 @@ export const SectionAbout = () => {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
 
           <Image
-            className="object-cover object-center rounded-full mx-auto w-[12rem]"
+            className="object-cover object-center rounded-full mx-auto"
             alt="About"
             width={150}
             height={150}

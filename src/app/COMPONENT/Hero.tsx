@@ -49,7 +49,7 @@ function Hero() {
 
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <Image
-              className="object-cover object-center rounded-full mx-auto w-[15rem]"
+              className="object-cover object-center rounded-full mx-auto"
               alt="hero"
               width={200}
               height={200}
