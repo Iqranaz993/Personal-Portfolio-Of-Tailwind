@@ -2,6 +2,7 @@
 import { Typewriter } from 'react-simple-typewriter';
 import Image from 'next/image';
 import Link from 'next/link';
+import HeroImage from "../../../public/profile.png" ;
 
 function Hero() {
   return (
@@ -16,6 +17,7 @@ function Hero() {
             </h1>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"> A {" "}
               <span style={{ color: 'red', fontWeight: 'bold' }}>
+
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
                   words={['Web Developer', 'Teacher', 'Youtuber', 'Receptionist!']}
@@ -53,7 +55,7 @@ function Hero() {
               alt="hero"
               width={200}
               height={200}
-              src={require('../../../public/profile.png')}
+              src={HeroImage}
             />
           </div>
         </div>

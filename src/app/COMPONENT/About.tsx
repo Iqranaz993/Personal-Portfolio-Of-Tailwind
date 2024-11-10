@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import AboutImage from "../../../public/profile2.jpeg"
 
 export const SectionAbout = () => {
   return (
@@ -15,9 +16,9 @@ export const SectionAbout = () => {
           <Image
             className="object-cover object-center rounded-full mx-auto"
             alt="About"
-            width={150}
-            height={150}
-            src={require('../../../public/profile2.jpeg')}
+            width={200}
+            height={200}
+            src={AboutImage}
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React from "react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-import { FaBars } from "react-icons/fa6";
 
 function Navbar() {
   return (

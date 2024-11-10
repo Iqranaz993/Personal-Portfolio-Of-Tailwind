@@ -1,4 +1,8 @@
+'use client'
 import Image from 'next/image';
+
+
+
 function Project() {
   return (
     <div id='Projects'>
@@ -16,7 +20,9 @@ function Project() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/project1.png")}
+                  width='200'
+                  height= '200'
+                  src="/project1.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -37,7 +43,9 @@ function Project() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/project2.png")}
+                  width='200'
+                  height= '200'
+                  src="/project2.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -57,7 +65,9 @@ function Project() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/project3.png")}
+                  width='200'
+                  height= '200'
+                  src="/project3.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -77,7 +87,9 @@ function Project() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/project4.png")}
+                  width='200'
+                  height= '200'
+                  src="/project4.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -97,7 +109,9 @@ function Project() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/project5.png")}
+                  width='200'
+                  height= '200'
+                  src="/project5.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -118,7 +132,9 @@ function Project() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/project6.png")}
+                  width='200'
+                  height= '200'
+                  src="/project6.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">

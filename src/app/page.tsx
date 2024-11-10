@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Hero from "./COMPONENT/Hero";
 import {SectionAbout} from "./COMPONENT/About";
 import Skills from "./COMPONENT/Skills";

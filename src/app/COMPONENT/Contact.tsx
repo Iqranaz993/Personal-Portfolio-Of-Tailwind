@@ -16,8 +16,8 @@ function Contact() {
             title="map"
             // marginHeight={0}
             // marginWidth={0}
-            // scrolling="no"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.592621391447!2d66.99325027443031!3d24.87775954456686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315862b73e75d%3A0x5864dabe740501c5!2sMiran%20Naka%20Lyari%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1731094464606!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            scrolling="no"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.592621391447!2d66.99325027443031!3d24.87775954456686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315862b73e75d%3A0x5864dabe740501c5!2sMiran%20Naka%20Lyari%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1731094464606!5m2!1sen!2s"
             style={{ filter: "contrast(1.2) opacity(0.4)" }}
           />
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
