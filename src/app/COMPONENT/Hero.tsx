@@ -1,8 +1,8 @@
 'use client'
-import { Typewriter } from 'react-simple-typewriter';
 import Image from 'next/image';
 import Link from 'next/link';
-import HeroImage from "../../../public/profile.png" ;
+import HeroImage from "../../../public/profile.png";
+import Typewriter from 'typewriter-effect';
 
 function Hero() {
   return (
@@ -20,15 +20,15 @@ function Hero() {
 
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
-                  words={['Web Developer', 'Teacher', 'Youtuber', 'Receptionist!']}
-                  loop={5}
-                  cursor
-                  cursorStyle='_'
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-
+                  options={{
+                    strings: ['Web Developer', 'Teacher' ,
+                    'Youtuber', 
+                    'Receptionist'],
+                    autoStart: true,
+                    loop: true,
+                  }}
                 />
+
               </span>
             </h1>
 

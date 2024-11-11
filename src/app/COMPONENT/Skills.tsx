@@ -1,5 +1,9 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { SiNextui } from "react-icons/si";
+import { FaRegFileExcel } from "react-icons/fa";
+import { FaFileWord } from "react-icons/fa";
 function Skills() {
   return (
     <div id="Skills">
@@ -59,7 +63,7 @@ function Skills() {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <FaCss3Alt className="font-bold" />
+                    <IoLogoJavascript className="font-bold" />
                   </div>
                   <h2 className="text-lg text-white title-font font-medium">
                     JavaScript/typeScript
@@ -80,7 +84,7 @@ function Skills() {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <FaCss3Alt className="font-bold" />
+                    <SiNextui className="font-bold" />
                   </div>
                   <h2 className="text-lg text-white title-font font-medium">
                     Next.js
@@ -99,7 +103,7 @@ function Skills() {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <FaCss3Alt className="font-bold" />
+                    <FaRegFileExcel className="font-bold" />
                   </div>
                   <h2 className="text-lg text-white title-font font-medium">
                     MS Excel
@@ -120,7 +124,7 @@ function Skills() {
               <div className="flex rounded-lg h-full p-8 flex-col">
                 <div className="flex items-center mb-3">
                   <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <FaCss3Alt className="font-bold" />
+                    <FaFileWord className="font-bold" />
                   </div>
                   <h2 className="text-lg text-white title-font font-medium">
                     MS worls
